@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Kiosk {
-    List<MenuItem> menuItems = new ArrayList<>();
+    List<MenuItem> menuItems;
 
     Kiosk() {
         this.menuItems = Arrays.asList(
