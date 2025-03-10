@@ -7,7 +7,7 @@
 - List를 선언하여 여러 menuItem을 추가
 - 반복문을 활용해 menuItem을 탐색하면서 하나씩 접근
   
-## 설계
+## 설계 & 구현
 ```
 <MenuItem 클래스>
 String name;
