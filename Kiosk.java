@@ -160,7 +160,7 @@ public class Kiosk {
                 System.out.print("[ ORDER MENU ]");
                 System.out.println("4. Orders     | 장바구니를 확인 후 주문합니다.");
                 System.out.println("5. Cancel     | 진행중인 주문을 취소합니다.");
-                System.out.println("번호를 입력해주세요. ");
+                System.out.print("번호를 입력해주세요. ");
                 categoryInput = sc.nextInt();
                 this.switchMenuWithOrder(categoryInput);
             }
